@@ -65,6 +65,16 @@ main img {
     width: 87%;
 }
 
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+main a:hover {
+    background-color: #063d1e;
+}
+
 article h1 {
     color: black;
     padding-left: 16px;
