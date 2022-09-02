@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #fc9706;
+    --cor2: #ff4600;
+    --cor3: #ffa500;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1))
+}
+
+.inicio {
+    text-align: center;
+    color: red;
+    font-size: 1.7em;
+}
+
+.link {
+    text-align: center;
+    color: #7f0909;
+}
+
+h2 {
+    margin: 2em;
+    font-size: 1.7em;
+}
+
+article > p {
+    font-size: 1.6em;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.a {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+a {
+    color: #7f0909;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #7f0909;
+}
+
+a:link {
+    color: #7f0909;
+}
+
+a:hover {
+    background: rgba(255, 0, 0, 0.473)
+}
+   
+
+
+
+
+
+
