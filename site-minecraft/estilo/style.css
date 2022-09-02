@@ -13,7 +13,7 @@
     --cor8: #1a5c37;
     --cor9: #063d1e;
 
-    --fonte-padrao: Arial, Verdana, Helvatica, sans-serif;
+    -fonte-padr-ao: Arial, Verdana, Helvatica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
 }
 
@@ -47,6 +47,7 @@ main {
 
 main p {
     color: black;
+    margin: auto;
     
 }
 
@@ -75,21 +76,20 @@ main a:hover {
     background-color: #063d1e;
 }
 
-article h1 {
-    color: black;
-    padding-left: 16px;
-    padding-top: 1.3em;
-}
+
 
 article h2 {
     color: black;
-    padding-left: 16px;
-    padding-top: 1.3;
+    padding-left: 1.7em;
+    padding-top: 1.1em;
+    margin: auto;
 }
 
 article > p {
+    padding-top: 1.1em;
     padding-left: 32px;
     font-size: 1.2em;
+    margin: auto;
 }
 
 footer {
